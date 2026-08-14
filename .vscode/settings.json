@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.env.osx": {
+    "NLTK_DATA": "${workspaceFolder}/nltk_data",
+    "MPLCONFIGDIR": "${workspaceFolder}/.matplotlib",
+    "XDG_CACHE_HOME": "${workspaceFolder}/.cache"
+  },
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "editor.formatOnSave": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "ruff.enable": true,
+  "ruff.format.args": ["--line-length", "100"]
+}
