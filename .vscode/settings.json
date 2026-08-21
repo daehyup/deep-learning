@@ -7,6 +7,10 @@
     "XDG_CACHE_HOME": "${workspaceFolder}/.cache"
   },
   "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "git.autorefresh": true,
+  "git.decorations.enabled": true,
   "editor.formatOnSave": true,
   "python.analysis.typeCheckingMode": "basic",
   "ruff.enable": true,
